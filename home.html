@@ -4,45 +4,86 @@
   <title>BOOYAH</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=ABeeZee">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
   <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
-  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
 </head>
 <body>
 
-    <nav class="navbar navbar-dark">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="home.html">BOOYAH</a>
-      </div>
-      <form class="navbar-form navbar-right">
-        <div class="input-group">
-          <input type="text" class="form-control" placeholder="Search">
-          <div class="input-group-btn">
-            <button class="btn btn-default" type="submit">
-              <i class="glyphicon glyphicon-search"></i>
-            </button>
+  <nav class="navbar navbar-expand-md navbar-dark" id="app-navbar" style="background-color: rgb(0, 0, 0);">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <p>BOOYAH</p>
+        </a>
+        <button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <form class="navbar-form navbar-right">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search">
+            <div class="input-group-btn">
+              <button class="btn btn-custom btn-primary" type="submit">
+                <i class="ion ion-search"></i>
+              </button>
+            </div>
           </div>
-        </div>
-      </form>
+        </form>
+        <!-- <div class="collapse navbar-collapse" id="navcol-1">
+            <ul class="nav navbar-nav ml-auto">
+                <li class="nav-item" role="presentation"><a class="nav-link active" href="#">Portofolio</a></li>
+                <li class="nav-item" role="presentation"><a class="nav-link" href="about.html">About Me</a></li>
+                <li class="nav-item" role="presentation"><a class="nav-link" href="services.html">My Services</a></li>
+                <a href="login.html" class="btn btn-primary ml-5 mr-5" type="button">Login</a>
+            </ul>
+        </div> -->
+    </div>
     </nav>
 
-    <button type="button" class="btn btn-primary">List Anime</button>
-    <button type="button" class="btn btn-primary">Populer</button>
-    <button type="button" class="btn btn-primary">Contact Us</button>
-    
-    <div>
-        <image class="img-responsive" src="manga.png">
-            <div class="caption">
-                <p>Situs Baca Manga Bahasa Indonesia</p>
+    <section class="container-fluid">
+    <div class="row" style="background-color: beige;">
+      <div class="col-md-8 col-sm-12" style="background-color: aquamarine;">
+        <div class="second-nav">
+            <button type=button" class="btn btn-primary mr-3">List Anime</button>
+            <button type="button" class="btn btn-primary mr-3">Populer</button>
+            <button type="button" class="btn btn-primary">Contact Us</button>
+        </div>
+        <br>
+        <br>
+
+        <div class="container mt-5 ml-5 col-md-12 col-sm-12">
+          <div class="highlight">
+            <div class="highlight-info">
+              <img class="img-responsive" src="assets/img/manga.png" width="100%">
+              <div class="caption">
+                  <p>Situs Baca Manga Bahasa Indonesia dasdasdsa</p>
+              </div>
             </div>
+          </div>
+        </div>
+      </div>
+
+     
+      <div class="d-flex col-md-4 justify-content-start mt-2 flex-column align-items-center" style="background-color: aliceblue;">
+        <div>
+          <br>
+          <br>
+          <h3 class="align-self-start">Random Anime</h3>
+        </div>
+     
+        <div class="side-highlight">
+          TEST
+        </div>
+
+      </div>
     </div>
+      
+  </section>
 
 
-
-</div>
 
 </body>
 </html>
