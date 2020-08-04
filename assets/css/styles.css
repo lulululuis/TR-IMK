@@ -32,7 +32,7 @@
 .side-highlight {
 	width: 80%;
 	height: 100%;
-	background-color:azure;
+	background-image: url('assets/img/back.png');
 	display:flex;
 	justify-content: center;
 }
