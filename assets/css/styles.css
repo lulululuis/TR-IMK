@@ -44,7 +44,7 @@
 .highlight {
 	width:90%;
 	/* background-color: antiquewhite; */
-	background-image: url("/assets/img/back1.webp");
+	background-image: url("assets/img/back1.webp");
 	background-size: cover;
 	padding: 40px 50px;
 }
@@ -75,7 +75,7 @@
 .side-highlight {
 	width: 80%;
 	height: 100%;
-	background-image: url("/assets/img/back.png");
+	background-image: url("assets/img/back.png");
 	background-repeat: repeat-y;
 	background-position: center;
 	display:flex;
@@ -114,6 +114,15 @@
 	justify-content: start;
 }
 
+.anime-list1 img {
+	display:flex;
+	flex-direction: row;
+	justify-content: start;
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
+}
+
 .anime-list img {
 	width: 180px;
 	height: 240px;
@@ -123,10 +132,23 @@
 .anime-list h3 {
 	padding-left: 30px;
 }
+
 .text{
 	text-align: justify;
 	width: 100%;
 	padding-left: 30px;
 	padding-right: 50px;
 	padding-top: 20px;
+}
+
+.text1{
+	text-align: justify;
+	width: 100%;
+	padding-left: 30px;
+	padding-right: 50px;
+	padding-top: 0px;
+}
+
+a {
+	color: black;
 }
