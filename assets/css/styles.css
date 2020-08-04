@@ -44,7 +44,7 @@
 .highlight {
 	width:90%;
 	/* background-color: antiquewhite; */
-	background-image: url("/assets/img/back1.webp");
+	background-image: url("../img/back1.webp");
 	background-size: cover;
 	padding: 40px 50px;
 }
@@ -75,7 +75,7 @@
 .side-highlight {
 	width: 80%;
 	height: 100%;
-	background-image: url("/assets/img/back.png");
+	background-image: url("../img/back.png");
 	background-repeat: repeat-y;
 	background-position: center;
 	display:flex;
