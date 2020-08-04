@@ -1,7 +1,30 @@
 .nav-costum {
-	background-color: black;
+	background: linear-gradient(120deg,rgb(33, 210, 254), rgb(125, 95, 255)) ;
 	height: 100%;
 	width:100%
+}
+
+.navbar-form {
+	position: absolute;
+	right: 20px;
+}
+.navbar {
+	padding:0px;
+}
+
+.merah {color:red}
+.orange {color:orange}
+.kuning {color:yellow}
+.hijau {color:green}
+.biru {color:skyblue}
+.ungu {color:purple}
+
+.title {
+	display:flex;
+	flex-direction:row;
+	font-weight:bold;
+	font-size: 40px;
+	margin-bottom: 0px;
 }
 
 .btn-custom {
@@ -79,15 +102,31 @@
 	font-weight: 500;
 }
 
-<<<<<<< HEAD
-.text{
-	text-align: justify;
-	width: 75%;
-	padding-left: 50px;
-	padding-right: 20px;
-	padding-top: 20px;
-=======
+
 .anime h5 {
 	font-weight:bold;
->>>>>>> d9fecbbb58ca970d4623cdfd9c59215ca55e255f
+}
+
+/* Populer */
+.anime-list {
+	display:flex;
+	flex-direction: row;
+	justify-content: start;
+}
+
+.anime-list img {
+	width: 180px;
+	height: 240px;
+	object-fit: cover;
+}
+
+.anime-list h3 {
+	padding-left: 30px;
+}
+.text{
+	text-align: justify;
+	width: 100%;
+	padding-left: 30px;
+	padding-right: 50px;
+	padding-top: 20px;
 }
