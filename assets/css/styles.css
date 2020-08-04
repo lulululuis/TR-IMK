@@ -20,27 +20,74 @@
 
 .highlight {
 	width:90%;
-	background-color: antiquewhite;
+	/* background-color: antiquewhite; */
+	background-image: url("/assets/img/back1.webp");
+	background-size: cover;
 	padding: 40px 50px;
 }
 
 .highlight-info {
-	background-color:aqua;
+	/* background-color:aqua; */
 	width: 50%;
+	border-radius: 5px;
+	overflow: hidden;
+	
+
+}
+.caption {
+	line-height: 15px;
+	padding: 0px 10px 0px 10px
+	/* text-align: justify; */
 }
 
+.caption h4 {
+	font-weight: bold;
+	/* margin-top: -20px; */
+}
+
+.caption p {
+	font-weight: 500;
+	color: rgba(0,0,0,.7)
+}
 .side-highlight {
 	width: 80%;
 	height: 100%;
-	background-image: url('assets/img/back.png');
+	background-image: url("/assets/img/back.png");
+	background-repeat: repeat-y;
+	background-position: center;
 	display:flex;
-	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 }
 
+.anime {
+	width:80%;
+	height:200px;
+	margin-bottom: 30px;
+	opacity:1;
+}
+
+.anime img {
+	width: 100%;
+	height:60%;
+	object-fit: cover;
+	object-position: top;
+}
+
+.anime p {
+	color: rgba(0,0,0,.7);
+	font-weight: 500;
+}
+
+<<<<<<< HEAD
 .text{
 	text-align: justify;
 	width: 75%;
 	padding-left: 50px;
 	padding-right: 20px;
 	padding-top: 20px;
+=======
+.anime h5 {
+	font-weight:bold;
+>>>>>>> d9fecbbb58ca970d4623cdfd9c59215ca55e255f
 }
