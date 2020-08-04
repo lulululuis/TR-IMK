@@ -44,7 +44,11 @@
 .highlight {
 	width:90%;
 	/* background-color: antiquewhite; */
+<<<<<<< HEAD
 	background-image: url("assets/img/back1.webp");
+=======
+	background-image: url("../img/back1.webp");
+>>>>>>> b044acf0fe4899652cc533af4bb6b6387aa609e4
 	background-size: cover;
 	padding: 40px 50px;
 }
@@ -75,7 +79,11 @@
 .side-highlight {
 	width: 80%;
 	height: 100%;
+<<<<<<< HEAD
 	background-image: url("assets/img/back.png");
+=======
+	background-image: url("../img/back.png");
+>>>>>>> b044acf0fe4899652cc533af4bb6b6387aa609e4
 	background-repeat: repeat-y;
 	background-position: center;
 	display:flex;
